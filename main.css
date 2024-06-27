@@ -1,0 +1,368 @@
+/* LET THE STYLING BEGIN */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.main .box{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.74;
+    
+    position: absolute;
+    top: 0;
+    
+    
+    
+}
+
+.main nav{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    
+}
+
+.logo{
+    
+    z-index: 1;
+    position: relative;
+}
+.main nav button{
+    z-index: 1;
+    position: relative;
+}
+
+.maintxt{
+    height: calc(79.4vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    gap: 23px;
+    padding:0px 30px;/*resposiveness*/
+
+
+}
+.maintxt .lighttxt {
+    font-family: "Segoe UI";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.maintxt .boldtxt{
+    font-family: "Segoe UI";
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.maintxt .signupbtn{
+    background-color: rgb(229, 9, 20);
+    border-radius:4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: "Segoe UI";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    
+    
+}
+.signbtn{
+    
+    font-family: "Martel Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    background-color: rgb(229, 9, 20);
+    border-radius:5px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: 4px 16px;
+    margin-left: 10px;
+   
+    
+}
+.engbtn{
+   
+    background-color:rgba(23,23,23,0.3);
+    border-radius:4px ;
+    color: white;
+    padding:4px 16px ;
+    font-family: "Martel Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid white;
+    
+
+}
+.sepline{
+    height: 10px;
+    background-color: #232323;
+}
+
+/*-----------------------------------------------------------------------*/
+.main2{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    
+    align-items: center;
+
+    
+
+}
+
+.tv{
+    
+    position: relative;
+   
+}
+.tv img{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+    
+    
+}
+.tv video{
+    
+    width: 480px;
+    position: absolute;
+    top:100px;
+    right:8px;
+
+}
+section.main2>div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+section.main2>div :nth-child(1) {
+    font-size:48px;
+    font-weight: 900;
+
+}
+section.main2>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+.lasttv{
+    position: relative;
+}
+.lasttv img{
+    position: relative;
+    z-index: 10;
+}
+.lasttv video{
+    width: 400px;
+    padding-left: 110px;
+    padding-top: 55px;
+    position: absolute;
+    
+}
+
+.faq h2{
+    color: white;
+    
+    font-weight: 900;
+    font-size: 48px;
+    padding-top: 70px;
+    padding-left: 400px;
+    padding-bottom: 30px;
+    
+}
+.faq{
+
+    padding-left: 150px;
+}
+.faqbox {
+    width: 80vw;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px 24px 24px 24px;
+    align-self: center;
+    
+}
+.ques{
+    font-family: Netflix Sans;
+    color: 
+    rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    font-family: 400;
+    padding: 60px 0px 30px 150px ;
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    margin: auto;
+    max-width: 80vw;
+    padding-bottom: 30px;
+   
+}
+.last{
+    color: Netflix Sans;
+    color: 
+    rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    font-family: 400;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+    
+    
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    
+    
+    
+}
+.footer-item>a{
+    font-size: 17px;
+    font-weight: 400;
+    
+    color: 
+    rgba(255, 255, 255, 0.7);
+}
+    
+.lastbuttons{
+    
+    padding-left:150px;
+}
+@media screen and (max-width:1300px) {
+    .maintxt{
+        height: 81.2vh;
+    }
+    .main nav{
+        max-width: 100vw;
+    }
+    .main2{
+        padding: 55px 0;
+        flex-wrap: wrap;
+    }
+    section.main2>div{
+        display: flex;
+        text-align: center;
+        
+        gap: 40px;
+    }
+    .tv img{
+        width: 405px;
+    }
+    .tv video{
+        width: 295px;
+        top:95px;
+        left:15px;
+        right:0px;
+        
+    }
+    .tv{
+        align-items: center;
+        width: 90vw;
+    }
+    section.main2>div :nth-child(1){
+        font-size: 35px;
+        font-weight: 700;
+        
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+    }
+    section.main2>div :nth-child(2) {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .lasttv{
+        width: 90vw;
+    }
+    .lasttv video{
+        width:200px;
+        padding-left: 60px;
+        padding-top: 30px;
+        position: absolute;
+        
+        
+    }
+    .faq h2{
+        font-size: 32px;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-left: 90px;
+        padding-bottom: 30px;
+    }
+    .faq{
+
+        padding-left: 15px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        max-width: 90vw;
+        padding-bottom: 30px;
+    }
+    .ques{
+        font-family: Netflix Sans;
+        color: 
+        rgba(255, 255, 255, 0.7);
+        font-size: 17px;
+        font-family: 400;
+        padding: 30px 0px 30px 20px ;
+    }
+    .lastbuttons{
+    
+        padding-left:15px;
+    }
+    .last{
+        
+        padding-left: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+        
+        
+    }
+    
+}
